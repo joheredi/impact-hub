@@ -1,29 +1,29 @@
-name: "📅 Meeting Note"
-description: "Meeting notes"
-title: "[Meeting Notes]"
-labels: ["Type: Meeting Note"]
-body:
-  - type: input
-    id: title
-    attributes:
-      label: "Meeting Title"
-  - type: date
-    id: Date
-    attributes:
-      label: "Date"
-  - type: markdown
-    id: Attendees
-    attributes:
-      label: "Attendees"
-  - type: markdown
-    id: Agenda
-    attributes:
-      label: "Agenda"
-  - type: markdown
-    id: Notes
-    attributes:
-      label: "Notes"
-  - type: markdown
-    id: ActionItems
-    attributes:
-      label: "Action Items (comma-separated links to Intake/Delegation issues)"
+# name: "📅 Meeting Note"
+# description: "Meeting notes"
+# title: "[Meeting Notes]"
+# labels: ["Type: Meeting Note"]
+# body:
+#   - type: input
+#     id: title
+#     attributes:
+#       label: "Meeting Title"
+#   - type: date
+#     id: Date
+#     attributes:
+#       label: "Date"
+#   - type: markdown
+#     id: Attendees
+#     attributes:
+#       label: "Attendees"
+#   - type: markdown
+#     id: Agenda
+#     attributes:
+#       label: "Agenda"
+#   - type: markdown
+#     id: Notes
+#     attributes:
+#       label: "Notes"
+#   - type: markdown
+#     id: ActionItems
+#     attributes:
+#       label: "Action Items (comma-separated links to Intake/Delegation issues)"

@@ -1,24 +1,24 @@
-name: "📋 Scorecard"
-description: "Employee Scorecard"
-labels: ["Type: Scorecard"]
-body:
-  - type: string
-    id: Employee
-    attributes:
-      label: "Employee Name"
-  - type: number
-    id: Readiness
-    attributes:
-      label: "Readiness (1-5)"
-  - type: markdown
-    id: Strengths
-    attributes:
-      label: "Strengths (comma-separated)"
-  - type: markdown
-    id: DevGoals
-    attributes:
-      label: "Development Goals"
-  - type: markdown
-    id: RecentWins
-    attributes:
-      label: "Recent Wins / Feedback"
+# name: "📋 Scorecard"
+# description: "Employee Scorecard"
+# labels: ["Type: Scorecard"]
+# body:
+#   - type: string
+#     id: Employee
+#     attributes:
+#       label: "Employee Name"
+#   - type: number
+#     id: Readiness
+#     attributes:
+#       label: "Readiness (1-5)"
+#   - type: markdown
+#     id: Strengths
+#     attributes:
+#       label: "Strengths (comma-separated)"
+#   - type: markdown
+#     id: DevGoals
+#     attributes:
+#       label: "Development Goals"
+#   - type: markdown
+#     id: RecentWins
+#     attributes:
+#       label: "Recent Wins / Feedback"
