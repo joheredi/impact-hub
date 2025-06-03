@@ -7,7 +7,7 @@ body:
     id: title
     attributes:
       label: "Title"
-  - type: textarea
+  - type: markdown
     id: description
     attributes:
       label: "Description"
@@ -16,13 +16,19 @@ body:
     attributes:
       label: "Alignment"
       options: ["A","B","C"]
+    validations:
+      required: true
   - type: dropdown
     id: Urgency
     attributes:
       label: "Urgency"
       options: ["1","2","3"]
+    validations:
+      required: true
   - type: dropdown
     id: Effort
     attributes:
       label: "Effort"
       options: ["S","M","L"]
+    validations:
+      required: true

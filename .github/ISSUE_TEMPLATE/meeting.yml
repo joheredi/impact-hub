@@ -1,4 +1,6 @@
 name: "📅 Meeting Note"
+description: "Meeting notes"
+title: "[Meeting Notes]"
 labels: ["Type: Meeting Note"]
 body:
   - type: input
@@ -9,19 +11,19 @@ body:
     id: Date
     attributes:
       label: "Date"
-  - type: input
+  - type: markdown
     id: Attendees
     attributes:
       label: "Attendees"
-  - type: textarea
+  - type: markdown
     id: Agenda
     attributes:
       label: "Agenda"
-  - type: textarea
+  - type: markdown
     id: Notes
     attributes:
       label: "Notes"
-  - type: textarea
+  - type: markdown
     id: ActionItems
     attributes:
       label: "Action Items (comma-separated links to Intake/Delegation issues)"

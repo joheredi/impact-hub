@@ -1,19 +1,21 @@
-name: "🎯 OKR"
+name: "🎯 Core Priorities"
+description: "Core priorities"
+title: "[Core Priority]"
 labels: ["Type: OKR"]
 body:
-  - type: input
+  - type: markdown
     id: Objective
     attributes:
       label: "Objective"
-  - type: input
+  - type: markdown
     id: KR1
     attributes:
       label: "Key Result #1"
-  - type: input
+  - type: markdown
     id: KR2
     attributes:
       label: "Key Result #2"
-  - type: input
+  - type: markdown
     id: KR3
     attributes:
       label: "Key Result #3"
