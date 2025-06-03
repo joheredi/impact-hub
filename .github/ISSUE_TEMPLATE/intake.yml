@@ -7,22 +7,22 @@ body:
     id: title
     attributes:
       label: "Title"
-  # - type: textarea
-  #   id: description
-  #   attributes:
-  #     label: "Description"
-  # - type: dropdown
-  #   id: Align
-  #   attributes:
-  #     label: "Align"
-  #     options: ["A","B","C"]
-  # - type: dropdown
-  #   id: Urgency
-  #   attributes:
-  #     label: "Urgency"
-  #     options: ["1","2","3"]
-  # - type: dropdown
-  #   id: Effort
-  #   attributes:
-  #     label: "Effort"
-  #     options: ["S","M","L"]
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+  - type: dropdown
+    id: Alignment
+    attributes:
+      label: "Alignment"
+      options: ["A","B","C"]
+  - type: dropdown
+    id: Urgency
+    attributes:
+      label: "Urgency"
+      options: ["1","2","3"]
+  - type: dropdown
+    id: Effort
+    attributes:
+      label: "Effort"
+      options: ["S","M","L"]
