@@ -1,0 +1,23 @@
+name: "📋 Scorecard"
+labels: ["Type: Scorecard"]
+body:
+  - type: user
+    id: Employee
+    attributes:
+      label: "Employee"
+  - type: number
+    id: Readiness
+    attributes:
+      label: "Readiness (1-5)"
+  - type: textarea
+    id: Strengths
+    attributes:
+      label: "Strengths (comma-separated)"
+  - type: textarea
+    id: DevGoals
+    attributes:
+      label: "Development Goals"
+  - type: textarea
+    id: RecentWins
+    attributes:
+      label: "Recent Wins / Feedback"

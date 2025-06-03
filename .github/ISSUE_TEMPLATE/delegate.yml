@@ -1,0 +1,25 @@
+name: "🛠️ Delegate Task"
+about: Create a delegation card
+labels: ["Type: Delegation"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: "Task Title"
+  - type: user
+    id: Owner
+    attributes:
+      label: "Assignee"
+  - type: textarea
+    id: Outcome
+    attributes:
+      label: "Success Criteria"
+  - type: date
+    id: DueDate
+    attributes:
+      label: "Due Date"
+  - type: dropdown
+    id: Status
+    attributes:
+      label: "Status"
+      options: ["Proposed","Assigned","In Progress","Review","Done"]

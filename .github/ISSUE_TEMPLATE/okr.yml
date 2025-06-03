@@ -1,0 +1,23 @@
+name: "🎯 OKR"
+labels: ["Type: OKR"]
+body:
+  - type: input
+    id: Objective
+    attributes:
+      label: "Objective"
+  - type: input
+    id: KR1
+    attributes:
+      label: "Key Result #1"
+  - type: input
+    id: KR2
+    attributes:
+      label: "Key Result #2"
+  - type: input
+    id: KR3
+    attributes:
+      label: "Key Result #3"
+  - type: number
+    id: Progress
+    attributes:
+      label: "Progress (% complete)"
